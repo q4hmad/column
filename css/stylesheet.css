@@ -1,4 +1,57 @@
-.column {
-  width: 300px;
-  float: left;
+.container {
+  width: 1000px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 40 0 20 0px;
+  background-image: url("../img/cupcake.jpeg")  no-repeat center center fixed;
+ background-size: cover;
 }
+
+body {
+  margin: 75px 0 0 0;
+  font-family: arial, sans-serif;
+  background-color: #738294;
+}
+
+
+
+#nav {
+  margin: 0;
+  padding: 0;
+}
+
+#nav li {
+  list-style: none;
+  float: left;
+  margin: 0 15px 0 0;
+}
+body p {
+  line-height: 155%;
+}
+.main {
+  width: 450px;
+  float: left;
+  margin: 0;
+  padding: 10px;
+}
+
+.side {
+  width: 400px;
+  float: left;
+  padding: 12px;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+/* @end */
